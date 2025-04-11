@@ -75,6 +75,8 @@ export default function Home() {
     setToCurrency(fromCurrency);
   };
 
+  const targetCurrencyLabel = currencyOptions.find(option => option.value === toCurrency)?.label.split(' - ')[0];
+
   return (
     <div className="flex items-center justify-center min-h-screen bg-secondary">
       <Toaster />
@@ -140,7 +142,7 @@ export default function Home() {
           {convertedAmount !== undefined && (
             <div className="mt-4 text-center">
               <Label className="text-muted-foreground">Converted Amount</Label>
-              <div className="text-2xl font-bold text-green-500">{convertedAmount.toFixed(2)}</div>
+              <div className="text-2xl font-bold text-green-500">{convertedAmount.toFixed(2)} {targetCurrencyLabel}</div>
             </div>
           )}
         </CardContent>
@@ -148,3 +150,4 @@ export default function Home() {
     </div>
   );
 }
+
