@@ -142,7 +142,12 @@ export default function Home() {
           {convertedAmount !== undefined && (
             <div className="mt-4 text-center">
               <Label className="text-muted-foreground">Converted Amount</Label>
-              <div className="text-2xl font-bold text-green-500">{convertedAmount.toFixed(2)} {targetCurrencyLabel}</div>
+              <div className="text-2xl font-bold text-green-500">
+                {new Intl.NumberFormat(undefined, {
+                  style: 'currency',
+                  currency: toCurrency,
+                }).format(convertedAmount)}
+              </div>
             </div>
           )}
         </CardContent>
@@ -150,4 +155,5 @@ export default function Home() {
     </div>
   );
 }
+
 
