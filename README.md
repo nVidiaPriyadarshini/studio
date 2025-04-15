@@ -5,6 +5,8 @@ This is a NextJS starter in Firebase Studio.
 To get started, take a look at src/app/page.tsx.
 App Preview: [https://9000-idx-studio-1744385758988.cluster-fdkw7vjj7bgguspe3fbbc25tra.cloudworkstations.dev]
 
+Demo Video: [https://github.com/nVidiaPriyadarshini/studio/blob/master/FirebaseStudio-CurrencyConverter.mov]
+
 # Currency Converter App 
 A simple app that converts currency quickly and simply. Generated using Firebase Studio
 This project is a very basic project generated using Firebase studio that is used to convert a currency from one to another. A web-based interface for converting currency and getting the output value, for example, here displays converting the currency of the US dollar to INR.
