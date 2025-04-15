@@ -3,6 +3,7 @@
 This is a NextJS starter in Firebase Studio.
 
 To get started, take a look at src/app/page.tsx.
+App Preview: [https://9000-idx-studio-1744385758988.cluster-fdkw7vjj7bgguspe3fbbc25tra.cloudworkstations.dev]
 
 # Currency Converter App 
 A simple app that converts currency quickly and simply. Generated using Firebase Studio
