@@ -5,7 +5,11 @@ This is a NextJS starter in Firebase Studio.
 To get started, take a look at src/app/page.tsx.
 App Preview: [https://9000-idx-studio-1744385758988.cluster-fdkw7vjj7bgguspe3fbbc25tra.cloudworkstations.dev]
 
-Demo Video: [https://github.com/nVidiaPriyadarshini/studio/blob/master/FirebaseStudio-CurrencyConverter.mov]
+Demo Video: [FirebaseStudio-CurrencyConverter.mov.zip](https://github.com/user-attachments/files/19754664/FirebaseStudio-CurrencyConverter.mov.zip)
+
+<video src="[Demo Video](https://github.com/user-attachments/files/19754664/FirebaseStudio-CurrencyConverter.mov.zip)" controls="controls" style="max-width: 730px;">
+</video>
+
 
 # Currency Converter App 
 A simple app that converts currency quickly and simply. Generated using Firebase Studio
